@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  font-weight: bold;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(13, 151, 0);
+  box-shadow: 5px 5px 0px 3px rgba(50, 187, 0, 0.293);
+  border-radius: 1rem;
+  padding: 3rem;
+  gap: .75rem;
+  min-width: 400px;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+img{
+  max-width: 150px;
+}
+
+button{
+  padding: .5rem 1rem;
+  background-color: rgb(255, 245, 130);
+  border-radius: 10px;
+  border: 2px solid rgb(212, 162, 69);
+}
